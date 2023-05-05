@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Today's Subjects</title>
+    <script>
+      // Get the current time
+      const currentTime = new Date();
+
+      // Get the current day of the week (0 = Sunday, 1 = Monday, etc.)
+      const currentDay = currentTime.getDay();
+
+      // Define an array of subjects for each day of the week
+      const subjects = [
+        [], // Sunday
+        ["Math", "English", "History"], // Monday
+        ["Science", "Art", "PE"], // Tuesday
+        ["English", "Math", "Music"], // Wednesday
+        ["History", "Science", "PE"], // Thursday
